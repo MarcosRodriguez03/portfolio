@@ -30,6 +30,8 @@ export default function Home() {
           Web Developer
         </p>
       </div>
+
+
       <div style={{
         height: "100px",
         backgroundImage: "rgb(15,23,42)",
@@ -38,7 +40,7 @@ export default function Home() {
       <div className="w-full h-full bg-slate-950">
 
         <section id="mySkills" className="py-10">
-          <p className="  text-[75px] text-center text-yellow-300">My Skills</p>
+          <p className="  text-[75px] text-center text-blue-300">My Skills</p>
 
           <div className="pt-4 flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap">
@@ -98,8 +100,9 @@ export default function Home() {
 
           <section className="my-32" id="myWork">
             <div className="grid grid-cols-1 lg:grid-cols-2">
-              <div className=" mx-[20px] xl:ml-0 lg:py-0 py-20 ">
-                <p className=" text-[60px]  lg:text-[105px] w-[100px] font-semibold text-yellow-300 leading-tight">My Work</p>
+
+              <div className=" mx-[20px] xl:ml-0 lg:py-0 pb-20 ">
+                <p className=" text-[60px]  lg:text-[105px] w-[100px] font-semibold text-blue-300 leading-tight">My Work</p>
                 <p className="text-[20px]">
                   Lead and Deployed a fully functioning task tracker application named TaskHub. This fullstack project utilizes NextJS and the Tailwind library for the frontend. C# was used to create the API endpoints, and Azure was used to host the database.
                 </p>
