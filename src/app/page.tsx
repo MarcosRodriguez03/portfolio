@@ -206,7 +206,7 @@ export default function Home() {
               </div>
 
               <p className="mx-[20px] mt-6 text-slate-950 text-[20px]">
-                I am a Junior Web Developer with experience in HTML, CSS, JavaScript, and React. I'm passionate about creating innovative and user-friendly applications that can help people solve problems and streamline work loads. I am currently a student at CodeStack Academy.
+                {`   I am a Junior Web Developer with experience in HTML, CSS, JavaScript, and React. I'm passionate about creating innovative and user-friendly applications that can help people solve problems and streamline work loads. I am currently a student at CodeStack Academy.`}
               </p>
             </div>
           </div>
