@@ -137,7 +137,7 @@ export default function Home() {
 
                 <a className=" mx-auto xl:mt-0" target="_blank" href="https://news-homepage-main-five-plum.vercel.app/">
                   <div className=" hover:border hover:border-yellow-300   w-[360px] lg:w-[380px] bg-slate-900 rounded-[10px]">
-                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[360px] lg:w-[380px]" src={techPage} alt="TaskHub pic" />
+                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[360px] lg:w-[380px]" src={techPage} alt="TaskHub pic 1" />
                     <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[360px] lg:w-[380px] ">
                       <span>
                         <p className=" font-semibold text-[24px]">Tech Home News Page</p>
