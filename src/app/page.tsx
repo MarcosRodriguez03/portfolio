@@ -205,7 +205,7 @@ export default function Home() {
             <div className="mt-[40px] lg:pr-[16%]">
               <div className="mx-[20px] items-center flex justify-between">
                 <p className=" text-[30px] lg:text-[40px] text-slate-950 font-semibold"> A little about me</p>
-                <Image style={{ objectPosition: '80% 20% ' }} className=" border-white border-[2px] rounded-[50px] h-[100px] w-[100px] object-cover" alt="pic of me" src={marcosRodriguez} />
+                <Image style={{ objectPosition: '80% 20% ' }} className=" border-white border-[2px] rounded-[50px] h-[100px] w-[100px] object-cover" alt="pic of  me" src={marcosRodriguez} />
               </div>
 
               <p className="mx-[20px] mt-6 text-slate-950 text-[20px]">
