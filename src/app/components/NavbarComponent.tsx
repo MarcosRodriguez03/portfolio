@@ -13,14 +13,14 @@ const NavbarComponent = () => {
         <>
             <div className=' fixed w-full top-0 navbar h-[70px] flex  justify-between items-center text-white px-[50px] py-[16px] z-50 backdrop-blur-md'>
 
-                <p className=' text-[40px] me-10 font-bold cursor-pointer'>MR<span className='text-yellow-300'>.</span></p>
+                <p className=' font-[ArchivoSemi] text-[40px] me-10 font-bold cursor-pointer'>MR<span className='text-yellow-300'>.</span></p>
 
 
                 <div className='hidden lg:block'>
                     <div className=' flex   gap-x-[30px]  text-[16px] h-full text-white'>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#mySkills">My Skills</a>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#myWork">My Work</a>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#contact">Contact</a>
+                        <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#mySkills">My Skills</a>
+                        <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#myWork">My Work</a>
+                        <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#contact">Contact</a>
 
                     </div>
                 </div>
