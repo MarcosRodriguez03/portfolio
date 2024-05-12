@@ -42,7 +42,7 @@ export default function Home() {
 
 
         <section>
-          <div className="max-w-[1260px] mx-auto">
+          <div className="max-w-[1100px] mx-auto">
 
             <div className="flex items-center">
               <p className="text-3xl" >Skills and Technologies</p>
