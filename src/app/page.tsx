@@ -23,10 +23,10 @@ export default function Home() {
         <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
         <Boxes />
-        <h1 className={cn(" font-[ArchivoSemi] md:text-8xl text-xl text-white relative z-20")}>
+        <h1 className={cn(" font-[ArchivoSemi] text-[40px]  md:text-6xl lg:text-8xl  text-white relative z-20")}>
           Marcos Rodriguez
         </h1>
-        <p className=" font-[Archivo] text-center text-5xl mt-4 text-yellow-300 relative z-20">
+        <p className=" font-[Archivo] text-center text-2xl md:text-3xl lg:text-5xl mt-4 text-yellow-300 relative z-20">
           Web Developer
         </p>
       </div>
@@ -53,26 +53,23 @@ export default function Home() {
 
 
             <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">HTML</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">JavaScript</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">HTML</p>
+              </div>
 
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">CSS</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">TypeScript</p>
               </div>
@@ -80,26 +77,22 @@ export default function Home() {
 
 
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">C#</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">SQL</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">React</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
 
                 <svg className="w-[48px] h-[48px]" viewBox="0 0 128 128">
                   <g fill="#ffffff">
@@ -109,78 +102,33 @@ export default function Home() {
                 <p className="text-[20px] ml-0 md:ml-4 text-white">NextJS</p>
               </div>
 
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Tailwind</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">BootStrap</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-plain.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">Angular</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Tailwind</p>
+              </div>
 
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">BootStrap</p>
+              </div>
+
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">.NET</p>
               </div>
 
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Figma</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <svg className="w-[48px] h-[48px]" viewBox="0 0 128 128">
-                  <g fill="#ffffff"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
-                </svg>
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Github</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Notion</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Slack</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
                 <p className="text-[20px] ml-0 md:ml-4 text-white">Postman</p>
               </div>
 
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Jira</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
-                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
-                <p className="text-[20px] ml-0 md:ml-4 text-white">Azure</p>
-              </div>
-
-              <div className="w-[124px] md:w-48 h-24 md:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col md:flex-row justify-center  items-center px-4 ">
-
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
                 <svg className="h-[48px] w-[48px]" viewBox="0 0 128 128">
                   <g fill="#ffffff">
                     <svg viewBox="0 0 128 128">
@@ -189,6 +137,40 @@ export default function Home() {
                   </g>
                 </svg>
                 <p className="text-[20px] ml-0 md:ml-4 text-white">Vercel</p>
+              </div>
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Figma</p>
+              </div>
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <svg className="w-[48px] h-[48px]" viewBox="0 0 128 128">
+                  <g fill="#ffffff"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
+                </svg>
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Github</p>
+              </div>
+
+
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Jira</p>
+              </div>
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Azure</p>
+              </div>
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Slack</p>
+              </div>
+
+              <div className="w-[124px] sm:w-48 h-24 sm:h-16 bg-slate-900 lg:m-6 rounded-[10px] flex mx-auto my-4 flex-col sm:flex-row  justify-center md:justify-start  items-center px-4 ">
+                <img className="w-[48px] h-[48px]" alt="Html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" />
+                <p className="text-[20px] ml-0 md:ml-4 text-white">Notion</p>
               </div>
 
 
@@ -263,7 +245,7 @@ export default function Home() {
           </div>
         </section> */}
 
-          <section className="py-32" id="myWork">
+          <section className="pt-32  pb-0 lg:pb-32 " id="myWork">
             <div className="flex items-center pb-4">
               <p className="text-3xl" >My  work </p>
               <div className="ml-6 flex-grow border-t border-white dark:border-white border-1 "></div>
@@ -280,11 +262,11 @@ export default function Home() {
 
               <a className="   mx-auto" target="_blank" href="https://task-hub-fullstack.vercel.app/">
                 <div className="" >
-                  <div className=" hover:border hover:border-yellow-300  w-[340px] lg:w-[340px] bg-slate-900 rounded-[10px]">
+                  <div className="  hover:text-yellow-300  w-[340px] md:w-[380px] lg:w-[340px] bg-slate-900 rounded-[10px]">
 
-                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] lg:w-[340px]" src={taskHub} alt="TaskHub pic" />
+                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={taskHub} alt="TaskHub pic" />
 
-                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] lg:w-[340px] ">
+                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] md:w-[380px] lg:w-[340px] ">
                       <span>
                         <p className=" font-semibold text-[24px]">TaskHub</p>
                         <p className=" text-[20px] text-slate-300">Web Development</p>
@@ -306,21 +288,24 @@ export default function Home() {
 
 
                 <a className=" mx-auto xl:mt-0" target="_blank" href="https://news-homepage-main-five-plum.vercel.app/">
-                  <div className=" hover:border hover:border-yellow-300   w-[340px] lg:w-[340px] bg-slate-900 rounded-[10px]">
-                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] lg:w-[340px]" src={techPage} alt="TaskHub pic 1" />
-                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] lg:w-[340px] ">
+                  <div className="  hover:text-yellow-300   w-[340px] md:w-[380px] lg:w-[340px] bg-slate-900 rounded-[10px]">
+
+                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={pokemonApi} alt="TaskHub pic" />
+                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] md:w-[380px] lg:w-[340px] ">
                       <span>
-                        <p className=" font-semibold text-[24px]">Tech Home News Page</p>
-                        <p className=" text-[20px] text-slate-300">HTML CSS Tailwind</p>
+
+
+                        <p className=" font-semibold text-[24px]">Pokemon API</p>
+                        <p className=" text-[20px] text-slate-300">JS HTML CSS TailWind</p>
                       </span>
                     </div>
                   </div>
                 </a>
 
                 <a className=" mx-auto mt-10 lg:mt-0" target="_blank" href="https://rock-paper-scissors-lizard-spock-iota.vercel.app/">
-                  <div className=" hover:border hover:border-yellow-300  w-[340px] lg:w-[340px] bg-slate-900 rounded-[10px]">
-                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] lg:w-[340px]" src={rockPaperSpock} alt="TaskHub pic" />
-                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] lg:w-[340px] ">
+                  <div className="  hover:text-yellow-300  w-[340px] md:w-[380px] lg:w-[340px] bg-slate-900 rounded-[10px]">
+                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={rockPaperSpock} alt="TaskHub pic" />
+                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] md:w-[380px] lg:w-[340px] ">
                       <span>
                         <p className=" font-semibold text-[24px]">Rock Paper Scissors Spock</p>
                         <p className=" text-[20px] text-slate-300">JS HTML CSS Bootstrap</p>
@@ -330,12 +315,12 @@ export default function Home() {
                 </a>
 
                 <a className=" mx-auto mt-10 col-span-1 lg:col-span-2 xl:col-span-1 xl:mt-0" target="_blank" href="https://pokedex-pkpd.vercel.app/">
-                  <div className=" hover:border hover:border-yellow-300  w-[340px] lg:w-[340px] bg-slate-900 rounded-[10px]">
-                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] lg:w-[340px]" src={pokemonApi} alt="TaskHub pic" />
-                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] lg:w-[340px] ">
+                  <div className="  hover:text-yellow-300  w-[340px] md:w-[380px] lg:w-[340px] bg-slate-900 rounded-[10px]">
+                    <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={techPage} alt="TaskHub pic 1" />
+                    <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] md:w-[380px] lg:w-[340px] ">
                       <span>
-                        <p className=" font-semibold text-[24px]">Pokemon API</p>
-                        <p className=" text-[20px] text-slate-300">JS HTML CSS TailWind</p>
+                        <p className=" font-semibold text-[24px]">Tech Home News Page</p>
+                        <p className=" text-[20px] text-slate-300">HTML CSS Tailwind</p>
                       </span>
                     </div>
                   </div>
@@ -351,7 +336,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1   md:grid-cols-2" id="contact">
-          <div className=" py-10 lg:py-0   col-span-1 h-full lg:h-[500px] bg-black ">
+          <div className="  order-2 md:order-1 py-10 lg:py-0   col-span-1 h-full lg:h-[500px] bg-black ">
 
             <div className=" mt-[40px] ">
               <div className=" mx-[20px] lg:ml-[16%]">
@@ -372,11 +357,13 @@ export default function Home() {
 
 
           </div>
-          <div className=" col-span-1 py-10 lg:py-0  h-full md:h-auto bg-blue-300">
+
+
+          <div className=" order-1 md:order-2 col-span-1 py-10 lg:py-0  h-full md:h-auto bg-yellow-300">
             <div className="mt-[40px] lg:pr-[16%]">
               <div className="mx-[20px] items-center flex justify-between">
                 <p className=" text-[30px] lg:text-[40px] text-slate-950 font-semibold"> A little about me</p>
-                <Image style={{ objectPosition: '80% 20% ' }} className=" border-white border-[2px] rounded-[50px] h-[100px] w-[100px] object-cover" alt="pic of  me" src={marcosRodriguez} />
+                <Image style={{ objectPosition: '80% 20% ' }} className=" border-white border-[2px] rounded-[100px] h-[150px] w-[150px] object-cover" alt="pic of  me" src={marcosRodriguez} />
               </div>
 
               <p className="mx-[20px] mt-6 text-slate-950 text-[20px]">
