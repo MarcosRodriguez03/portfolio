@@ -17,7 +17,8 @@ const NavbarComponent = () => {
 
 
                 <div className='hidden lg:block'>
-                    <div className=' flex   gap-x-[30px]  text-[16px] h-full text-white'>
+                    <div className=' flex text-[20px]   gap-x-[30px]   h-full text-white'>
+                        <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#aboutMe">About Me</a>
                         <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#mySkills">My Skills</a>
                         <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#myWork">My Work</a>
                         <a className=' font-[Archivo] my-auto hover:text-[#d3d5d5]' href="#contact">Contact</a>
