@@ -267,7 +267,7 @@ export default function Home() {
                   </div>
                 </a>
 
-                <a className=" mx-auto mt-10 lg:mt-0" target="_blank" href="https://rock-paper-scissors-lizard-spock-iota.vercel.app/">
+                <a className=" mx-auto   mt-10 lg:mt-0" target="_blank" href="https://rock-paper-scissors-lizard-spock-iota.vercel.app/">
                   <div className="  hover:text-yellow-300  w-[340px] md:w-[380px] lg:w-[340px] bg-slate-900 rounded-[10px]">
                     <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={rockPaperSpock} alt=" TaskHub pic" />
                     <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] md:w-[380px] lg:w-[340px] ">
