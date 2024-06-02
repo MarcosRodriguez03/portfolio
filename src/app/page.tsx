@@ -254,7 +254,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2  xl:grid-cols-3">
 
 
-                <a className=" mx-auto xl:mt-0" target="_blank" href="https://news-homepage-main-five-plum.vercel.app/">
+                <a className=" mx-auto  xl:mt-0" target="_blank" href="https://news-homepage-main-five-plum.vercel.app/">
                   <div className="  hover:text-yellow-300   w-[340px] md:w-[380px] lg:w-[340px] bg-slate-900 rounded-[10px]">
 
                     <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={pokemonApi} alt="TaskHub pic" />
