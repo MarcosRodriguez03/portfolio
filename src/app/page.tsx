@@ -260,7 +260,7 @@ export default function Home() {
                     <Image style={{ objectPosition: 'top left' }} className="object-cover   rounded-t-[10px] h-[285px]  w-[340px] md:w-[380px] lg:w-[340px]" src={pokemonApi} alt="TaskHub pic" />
                     <div className="  flex items-center lg:mx-[20px]  h-[140px]  w-[340px] md:w-[380px] lg:w-[340px] ">
                       <span>
-                        <p className=" font-semibold  text-[24px]">Pokemon API</p>
+                        <p className=" font-semibold   text-[24px]">Pokemon API</p>
                         <p className=" text-[20px] text-slate-300">JS HTML CSS TailWind</p>
                       </span>
                     </div>
